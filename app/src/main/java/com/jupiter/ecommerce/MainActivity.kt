@@ -17,12 +17,11 @@ class MainActivity : AppCompatActivity() {
     private val searchFragment = SearchFragment()
     lateinit var bottomNav : BottomNavigationView
 
-    @SuppressLint("ResourceAsColor")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setFragment(homeFragment)
-        bottomNav = findViewById<BottomNavigationView>(R.id.bottom_nav)
+        bottomNav = findViewById(R.id.bottom_nav)
         bottomNav.setOnNavigationItemSelectedListener {
             when(it.itemId){
                 R.id.home_nav -> setFragment(homeFragment)
