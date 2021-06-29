@@ -8,8 +8,13 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="gray">#7D7D7E</color>
-    <color name="dark_blue">#00309F</color>
-    <color name="royal_blue">#3960E2</color>
-
-
+    <color name="royal_blue">#425FDB</color> <!--  primary color  -->
+    <color name="dark_blue">#00309F</color> <!--  primary color  -->
+    <color name="alabaster">#FBFBFB</color> <!--  background for fragments  -->
+    <color name="athens_gray">#F2F2F5</color> <!--  background for cards  -->
+    <color name="hawkes_blue">#DFECFD</color> <!--  secondary button color  -->
+    <color name="rhino">#303263</color> <!--  text color/danger button color  -->
+    <color name="ghost">#D0D1D7</color> <!--  background for bottom nav item  -->
+    <color name="deep_cove">#040831</color> <!--  background for bottom nav(night)  -->
+    <color name="tuna">#33343D</color>
 </resources>

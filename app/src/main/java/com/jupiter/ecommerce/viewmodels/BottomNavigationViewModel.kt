@@ -19,12 +19,13 @@ import com.jupiter.ecommerce.views.*
         )]
 )
 class BottomNavigationViewModel(supportFragmentManager: FragmentManager) {
+    private val fragmentManager: FragmentManager = supportFragmentManager
+
     private val profileFragment = ProfileFragment()
     private val searchFragment = SearchFragment()
     private val cartFragment = CartFragment()
     private val homeFragment = HomeFragment()
     private val likeFragment = LikeFragment()
-    private val fragmentManager: FragmentManager = supportFragmentManager
 
     init {
         setFragment(homeFragment)
